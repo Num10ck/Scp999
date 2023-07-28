@@ -50,7 +50,6 @@ namespace Scp999.EventHandlers
             {
                 if (ev.Attacker == null)
                 {
-                    ev.IsAllowed = true;
                 } 
                 else if (ev.Attacker.IsScp)
                 {
